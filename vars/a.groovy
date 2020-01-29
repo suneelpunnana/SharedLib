@@ -1,4 +1,4 @@
-def call{
+def call(){
 test = load 'fetchvalues.groovy'
 
 
