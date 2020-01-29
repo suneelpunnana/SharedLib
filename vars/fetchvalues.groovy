@@ -1,4 +1,4 @@
-def call(){
+
 import groovy.json.*
 
 def jS = new JsonSlurper()
@@ -21,4 +21,3 @@ path="/var/lib/jenkins/workspace/${JOB_NAME}/"+dsl
 println(path)
 
 //run(new File(path),[job] as String[])
-}
