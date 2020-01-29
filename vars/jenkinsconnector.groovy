@@ -1,3 +1,3 @@
 def call(jobname){
-sh 'curl -X POST http://admin:111467e48bd253de113a2db9642f58eb09@3.14.126.190:8080//job/jobname/build'
+sh "curl -X POST http://admin:119767fb81f22e2f10d8594e4201717e53@18.217.178.163:8080/job/'${jobname}'/build"
 }
