@@ -8,6 +8,8 @@ String j1=data.ci.jobs.job.job_name
 String j2=j1.replace("[","");
 String job=j2.replace("]","");
 
+
+
 String j=data.ci.jobs.job.dsl_fileName
 println(j)
 
