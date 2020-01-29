@@ -15,6 +15,7 @@ println(j)
 
 String j3=j.replace("[","");
 String dsl=j3.replace("]","");
+println("%%%%%%%%%%%%%")
 println(dsl)
 
 
