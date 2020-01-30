@@ -1,5 +1,5 @@
 def call(json){
-def data = readJSON file: "${env.WORKSPACE}/json"
+def data = readJSON file: "${env.WORKSPACE}/${json}"
 def j = data.ci.jobs.job.job_name
 String j1=j.replace("[","");
 String jenkins_jobname=j1.replace("]","");
