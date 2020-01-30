@@ -6,5 +6,7 @@ println(jenkins_jobname)
 String d=data.ci.jobs.job.dsl_fileName
 String dsl_filename=d.replaceAll("\\[", "").replaceAll("\\]","");
 println(dsl_filename)
-
+environment {
+                JENKINS_NAME = jenkins_jobname
+            }
 }
