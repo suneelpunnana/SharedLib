@@ -1,5 +1,5 @@
 def call(){
 
-sh 'curl -X GET http://3.14.126.190:8080/api/json?pretty=true --user admin:admin'
+sh 'curl -X GET http://18.221.47.136:8080/api/json?pretty=true --user admin:119767fb81f22e2f10d8594e4201717e53'
 
 }
