@@ -1,5 +1,5 @@
 def call(jsondata){
-def jsonString = ${jsondata}
+def jsonString = jsondata
 def jsonObj = readJSON text: jsonString
 String a=jsonObj.ci.jobs.job.job_name
 String jobname=a.replaceAll("\\[", "").replaceAll("\\]","");
