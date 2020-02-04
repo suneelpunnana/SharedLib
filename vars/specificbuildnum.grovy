@@ -1,0 +1,3 @@
+def call(jobname)
+{
+$ curl -s http://<jenkins_url>/job/<job_name>/<specific_build_number>/api/json --user <user_name>:<api_token>
